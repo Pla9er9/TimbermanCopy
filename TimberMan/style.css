@@ -1,0 +1,113 @@
+html { overflow-y: hidden; 
+}
+body{
+    background-image: url("theme.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tree {
+    margin-top: -50px;  
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(95, 64, 29);  
+    border: solid 6px rgb(41, 24, 12);
+    margin-left: calc(50% - 125px);
+    border-radius: 15px;
+}
+
+#branch0{
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    background-color: rgb(80, 54, 25);  
+    border: solid 4px rgb(41, 24, 12);
+    margin-left: -400px;
+    border-radius: 15px;
+}
+
+#branch1{
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    background-color: rgb(80, 54, 25);  
+    border: solid 4px rgb(41, 24, 12);
+    margin-left: -400px;
+    border-radius: 15px;
+}
+
+#branch2{
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    background-color: rgb(80, 54, 25);  
+    border: solid 4px rgb(41, 24, 12);
+    margin-left: -400px;
+    border-radius: 15px;
+}
+
+#character{
+    position: absolute;
+    margin-top:65vh;
+    margin-left: 56vh;
+    height: 350px;
+    width: 250px;
+}
+
+img {
+    height: 350px;
+    width: 300px; 
+}
+
+#score{
+    margin-top: -800px;
+    margin-left: 220px;
+    font-size: 200px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#menu {
+    margin-top: -200px;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(24, 24, 24);
+    margin-left: calc(50% - 400px);
+    border: solid 4px rgb(255, 153, 0);
+    color:azure;
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    background-color: rgb(15, 15, 15);
+    border: solid 4px rgb(255, 153, 0);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:azure;
+}
+
+input {
+    width: 300px;
+    background-color: rgb(15, 15, 15);
+    border: solid 4px rgb(255, 153, 0);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:azure;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*:hover{
+    outline: none;
+}
